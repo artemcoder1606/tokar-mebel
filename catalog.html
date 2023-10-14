@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231014235928">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<a href="#" class="top-header__logo"><img src="img/logo.svg" alt="Логотип"></a>
+					<p class="top-header__text">
+						TokarCompany - производственно -строительная компания
+					</p>
+					<div class="top-header__socials socials-header" data-da=".menu-burger__content, 767.98, 2">
+						<div class="socials-header__title">
+							Связаться напрямую:
+						</div>
+						<div class="socials-header__row">
+							<a class="socials-header__item socials-header__item_telegram" href=""><img src="img/icons/Telegram.svg" alt="Telegram"></a>
+							<a class="socials-header__item socials-header__item_whatsApp" href=""><img src="img/icons/WhatsApp.svg" alt="WhatsApp"></a>
+							<a class="socials-header__item socials-header__item_viber" href=""><img src="img/icons/viber.svg" alt="Viber"></a>
+						</div>
+					</div>
+					<div class="top-header__data contact-block">
+						<a class="top-header__phone contact-block__phone" href="tel:+380671755630"><span>+3 80 (67) 175 56 30</span>
+							<img src="img/icons/phone.svg" aria-hidden="true" alt=""></a>
+						<span class="top-header__schedule contact-block__schedule">с 09:00 до 18:00 (пн-вс)</span>
+					</div>
+					<div class="">
+						<div class="top-header__callback" data-da=".bottom-header__btn, 991.98">
+							<button type="button" class="button top-header__btn "><span>Заказать звонок</span></button>
+							<span class="top-header__callback-text">Бесплатно по Украине</span>
+						</div>
+					</div>
+					<div class="top-header__languages languages-dropdown">
+						<a href="#" id="dropdown" class="languages-dropdown__btn" aria-label="languages"></a>
+						<ul class="languages-dropdown__items">
+							<li class="languages-dropdown__item _active"><img src="img/icons/RU.svg" aria-hidden="true" alt=""></li>
+							<li class="languages-dropdown__item"><img src="img/icons/UA.svg" aria-hidden="true" alt=""></li>
+						</ul>
+					</div>
+					<button type="button" class="menu__icon icon-menu" aria-label="Кнопка открытия меню"><span></span></button>
+				</div>
+				<div class="header__bottom bottom-header">
+					<div class="bottom-header__menu menu">
+						<ul class="bottom-header__catalog catalog" data-da=".menu-burger__content, 767.98, first">
+							<li class="catalog__item"><a href="#" class="catalog__link">Жилое</a></li>
+							<li class="catalog__item"><a href="#" class="catalog__link">Коммерческое</a></li>
+							<li class="catalog__item"><a href="#" class="catalog__link catalog__link_last">Садовое</a></li>
+						</ul>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">О компании</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Наши работы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+							<div class="menu-burger__content"></div>
+						</nav>
+						<div class="bottom-header__btn"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__catalog catalog-page">
+				<div class="catalog-page__container">
+					<nav class="catalog-page__breadcrumbs breadcrums">
+						<ul class="breadcrums__list">
+							<li class="breadcrums__item">
+								<a href="#" class="breadcrums__link">Главная страница </a>/
+							</li>
+							<li class="breadcrums__item">
+								<span class="breadcrums__link">Жилое</span>
+							</li>
+						</ul>
+					</nav>
+					<div class="catalog-page__header">
+						<h1 class="catalog-page__title title">Каталог жилых строений</h1>
+						<form action="3" class="catalog-page__search search-catalog">
+							<button type="submit" class="search-catalog__btn"></button>
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск по жилым строениям..." class="input search-catalog__input">
+						</form>
+					</div>
+					<div class="catalog-page__body">
+						<div data-spollers="768,max" class="spollers catalog-page__filter">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="catalog-page__btn button spollers__btn">Фильтр
+									строений</button>
+								<div class="catalog-page__spollers-body">
+
+								</div>
+							</div>
+						</div>
+						<aside class="catalog-page__side" data-da=".catalog-page__spollers-body, 767.98, 2">
+							<div data-spollers class="catalog-page__spollers spollers-catalog">
+								<div class="spollers-catalog__item">
+									<button type="button" data-spoller class="spollers-catalog__title _spoller-active">Подкатегория</button>
+									<div class="spollers-catalog__body body-spollers">
+										<div class="catalog-page__block">
+											<h3 class="body-spollers__title">
+												Дома и жилые строения
+											</h3>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_1" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="1" name="Дома">
+												<label for="c_1" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Дома</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_2" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="2" name="Дома из
+													профилированого бруса">
+												<label for="c_2" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Дома из
+														профилированого бруса
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_3" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="3" name="Дома из
+													оцилиндрованого бруса">
+												<label for="c_3" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Дома из
+														оцилиндрованого бруса
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_4" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="4" name="Дачи">
+												<label for="c_4" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Дачи
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_5" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Коттеджи">
+												<label for="c_5" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Коттеджи
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_6" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="6" name="Виллы">
+												<label for="c_6" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Виллы</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_7" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="7" name="Усадьбы">
+												<label for="c_7" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Усадьбы</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_8" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="8" name="Особняки">
+												<label for="c_8" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Особняки</span></label>
+											</div>
+										</div>
+										<div class="catalog-page__block">
+											<h3 class="body-spollers__title">
+												Коммерческие строения
+											</h3>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_9" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="1" name="Базы отдыха">
+												<label for="c_9" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Базы отдыха</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_10" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="2" name="Гостинницы">
+												<label for="c_10" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Гостинницы</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_11" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="3" name="Рестораны">
+												<label for="c_11" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Рестораны</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_12" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="4" name="Кафе">
+												<label for="c_12" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Кафе
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_13" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Магазины">
+												<label for="c_13" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Магазины
+													</span></label>
+											</div>
+										</div>
+										<div class="catalog-page__block">
+											<h3 class="body-spollers__title">
+												Садовые и хоз постройки
+											</h3>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_14" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="1" name="Деревянные	бани из	оцилиндрованого бруса">
+												<label for="c_14" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Деревянные бани из
+														оцилиндрованого бруса</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_15" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="2" name="Деревянные	бани из профилированого бруса
+													">
+												<label for="c_15" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Деревянные бани из
+														профилированого бруса
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_16" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="3" name="Каркасные	конструкции
+													">
+												<label for="c_16" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Каркасные конструкции
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+												<input id="c_17" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="4" name="Альтанки">
+												<label for="c_17" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Альтанки
+													</span></label>
+											</div>
+											<div class="checkbox catalog-page__checkbox catalog-checkbox">
+
+												<input id="c_18" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Гаражи">
+												<label for="c_18" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Гаражи
+													</span></label>
+												<div class="checkbox catalog-page__checkbox catalog-checkbox">
+													<input id="c_19" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Кухни">
+													<label for="c_19" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Кухни
+														</span></label>
+													<div class="checkbox catalog-page__checkbox catalog-checkbox">
+														<input id="c_20" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Детские	игровые площадки
+													">
+														<label for="c_20" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Детские игровые площадки
+															</span></label>
+														<div class="checkbox catalog-page__checkbox catalog-checkbox">
+															<input id="c_21" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Деревянные	детские домики
+													">
+															<label for="c_21" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Деревянные детские
+																	домики
+																</span></label>
+															<div class="checkbox catalog-page__checkbox catalog-checkbox">
+																<input id="c_22" data-error="Ошибка" class="checkbox__input catalog-checkbox__input" type="checkbox" value="5" name="Мангальные	зоны и	барбекю
+													">
+																<label for="c_22" class="checkbox__label catalog-checkbox__label"><span class="checkbox__text catalog-checkbox__text">Мангальные зоны и
+																		барбекю
+																	</span></label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers-catalog__item">
+									<button type="button" data-spoller class="spollers-catalog__title">Сортировать по:</button>
+									<div class="spollers-catalog__body body-spollers">
+										<div class="catalog-page__block">
+											<div class="options catalog-page__options">
+												<div class="options__item catalog-page__radio catalog-radio">
+													<input hidden id="o_1" class="catalog-radio__input" checked type="radio" value="1" name="option">
+													<label for="o_1" class="catalog-radio__label"><span class="catalog-radio__text">Алфавиту</span></label>
+												</div>
+												<div class="options__item catalog-page__radio catalog-radio">
+													<input hidden id="o_2" class="catalog-radio__input" type="radio" value="2" name="option">
+													<label for="o_2" class="catalog-radio__label"><span class="catalog-radio__text">Популярности</span></label>
+												</div>
+												<div class="options__item catalog-page__radio catalog-radio">
+													<input hidden id="o_3" class="catalog-radio__input" type="radio" value="2" name="option">
+													<label for="o_3" class="catalog-radio__label"><span class="catalog-radio__text">Цене</span></label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers-catalog__item">
+									<button type="button" data-spoller class="spollers-catalog__title">Площадь (м2):</button>
+									<div class="spollers-catalog__body body-spollers">
+										<div class="catalog-page__block">
+											<div class="catalog-page__range">
+												<div class="catalog-page__range-wrap">
+													<div class="catalog-page__min">10</div>
+													<div id="range-square" class="range"></div>
+													<div class="catalog-page__max">500</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers-catalog__item">
+									<button type="button" data-spoller class="spollers-catalog__title">Цена (грн):</button>
+									<div class="spollers-catalog__body body-spollers">
+										<div class="catalog-page__block">
+											<div class="catalog-page__range">
+												<div class="catalog-page__range-wrap">
+													<div class="catalog-page__min">1 00 000</div>
+													<div id="range-price" class="range"></div>
+													<div class="catalog-page__max">5 000 000</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+						<div class="catalog-page__wrap">
+							<div class="catalog-page__items" id="catalog-items">
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант Z-65 «Bavaria»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>135 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">1 000 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-56 «Barcelona»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>249 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 800 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/03.webp" type="image/webp"><img src="img/catalog/03.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-25 «Garden ECO»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>71 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">580 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/04.webp" type="image/webp"><img src="img/catalog/04.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-53 «Feeria»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size"><span class="item-product__size-body"><span>53.6
+															м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">980 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/05.webp" type="image/webp"><img src="img/catalog/05.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант LX-75
+												«JULIA»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>187 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 350 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/06.webp" type="image/webp"><img src="img/catalog/06.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-49v2 «Nevada»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>146 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 421 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/07.webp" type="image/webp"><img src="img/catalog/07.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант OS-77 «Milano»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>192 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">3 260 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/08.webp" type="image/webp"><img src="img/catalog/08.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-22 «Classic»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>131 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">1 200 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-65 «Elegant»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>112 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 300 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/10.webp" type="image/webp"><img src="img/catalog/10.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-16
+												«Classic Plus»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>110 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">920 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/11.webp" type="image/webp"><img src="img/catalog/11.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-23
+												«ECO Soul»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>186 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 150 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+								<article class="catalog-page__item item-block item-product">
+									<a href="" class="item-product__link">
+										<div class="item-block__imb-ibg item-product__img">
+											<picture><source srcset="img/catalog/12.webp" type="image/webp"><img src="img/catalog/12.png" alt="Дом"></picture>
+										</div>
+										<div class="item-block__inner item-product__inner">
+											<h3 class="item-block__title item-product__title">
+												Вариант ST-99 «Edinburgh»
+											</h3>
+											<div class="item-product__sizes">
+												<div class="item-product__size"><span>7,5х9 м</span></div>
+												<div class="item-product__size">
+													<span class="item-product__size-body"><span>250 м</span><sup>2</sup></span>
+												</div>
+											</div>
+											<div class="item-product__footer">
+												<span class="item-product__button button">
+													<span>Ознакомиться</span>
+												</span>
+												<div class="item-product__price">2 458 000 грн</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="catalog-page__bunner bunner">
+								<a href="#" class="bunner__body">
+									<div class="bunner__inner">
+										<h3 class="bunner__title">
+											Нет подходящего проекта?
+										</h3>
+										<p class="bunner__text">
+											Мы разработаем проект индивидуально под ваш запрос с помощью 3D-макета
+										</p>
+
+										<span class="bunner__btn button" data-popup="#popup">
+											<span>Разработать проект</span>
+										</span>
+									</div>
+									<div class="bunner__img">
+										<span class="bunner__img bunner__img-ibg">
+											<picture><source srcset="img/bunner-img.webp" type="image/webp"><img src="img/bunner-img.png" alt="Мужчина сидит за компьютером"></picture>
+										</span>
+									</div>
+								</a>
+							</div>
+							<button type="button" class="catalog-page__show-more">
+								<span>Показать еще больше
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__row">
+						<!-- <div data-spollers class="spollers">
+					<div class="spollers__item">
+						<button type="button" data-spoller class="spollers__title">Заголовок спойлера</button>
+						<div class="spollers__body">Контент спойлера</div>
+					</div>
+				</div> -->
+						<ul class="top-footer__catalog catalog spollers" data-spollers="991.98">
+							<li class="catalog__item spollers__item"><button type="button" class="catalog__link spollers__title" data-spoller>Жилое</button>
+								<ul class="spollers__body ">
+									<li class="spollers__link"><a href="#" class="">Дома из профилированого бруса</a>
+									</li>
+									<li class="spollers__link"><a href="#" class="">Дома из оцилиндрованого бруса
+										</a></li>
+									<li class="spollers__link"><a href="#" class="">Каркасные дома
+										</a></li>
+									<li class="spollers__link"><a href="#" class="">Дома из блока</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item spollers__item"><button type="button" class="catalog__link  spollers__title" data-spoller>Коммерческое</button>
+								<ul class="spollers__body">
+									<li class="spollers__link"><a href="" class=""> Базы отдыха
+										</a></li>
+									<li class="spollers__link"><a href="" class=""> Гостинницы
+										</a></li>
+									<li class="spollers__link"><a href="" class=""> Рестораны
+										</a></li>
+									<li class="spollers__link"><a href="" class=""> Кафе
+										</a></li>
+									<li class="spollers__link"><a href="" class=""> Магазины
+
+										</a></li>
+								</ul>
+							</li>
+							<li class="catalog__item spollers__item"><button type="button" class="catalog__link  spollers__title catalog__link_last" data-spoller>Садовое</button>
+								<ul class="spollers__body">
+									<li class="spollers__link"><a href="" class="">Деревянные бани</a></li>
+									<li class="spollers__link"><a href="" class="">Беседки</a></li>
+									<li class="spollers__link"><a href="" class="">Альтанки</a></li>
+									<li class="spollers__link"><a href="" class="">Детские игровые площадки
+										</a></li>
+									<li class="spollers__link"><a href="" class="">Гаражи
+										</a></li>
+									<li class="spollers__link"><a href="" class="">Деревянные детские домики
+										</a></li>
+									<li class="spollers__link"><a href="" class="">Мангальные зоны и барбекю</a></li>
+									<li class="spollers__link"><a href="" class="">Кухни</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="top-footer__block">
+
+						</div>
+						<div class="menu" data-da=".top-footer__column_first, 997.98">
+							<nav class="menu__inner top-footer__menu">
+								<ul class="menu__list top-footer__menu-list">
+									<li class="menu__item"><a href="" class="menu__link top-footer__menu-link">О компании</a></li>
+									<li class="menu__item"><a href="" class="menu__link top-footer__menu-link">Наши работы</a></li>
+									<li class="menu__item"><button type="button" class="button top-footer__btn "><span>Заказать звонок</span></button></li>
+								</ul>
+								<div class="menu-burger__content"></div>
+							</nav>
+						</div>
+					</div>
+					<div class="top-footer__row">
+						<div class="top-footer__column top-footer__column_first">
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a href="" class="top-footer__link">Дома из профилированого бруса</a>
+								</li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Дома из оцилиндрованого бруса
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Каркасные дома
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Дома из блока</a></li>
+							</ul>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a href="" class="top-footer__link"> Базы отдыха
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link"> Гостинницы
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link"> Рестораны
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link"> Кафе
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link"> Магазины
+
+									</a></li>
+							</ul>
+							<ul class="top-footer__list">
+								<li class="top-footer__item"><a href="" class="top-footer__link">Деревянные бани</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Беседки</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Альтанки</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Детские игровые площадки
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Гаражи
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Деревянные детские домики
+									</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Мангальные зоны и барбекю</a></li>
+								<li class="top-footer__item"><a href="" class="top-footer__link">Кухни</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__column">
+							<div class="top-footer__logo-wrap" data-da=".top-footer__block, 997.98">
+								<a href="#" class="top-footer__logo"><img src="img/logo.svg" alt="Логотип"></a>
+								<div class="top-footer__text">
+									<p>
+										TokarCompany - производственно-строительная компания
+									</p>
+								</div>
+							</div>
+							<div class="top-footer__socials socials-header">
+								<div class="socials-header__title top-footer__socials-title">
+									Связаться напрямую:
+								</div>
+								<div class="socials-header__row">
+									<a class="socials-header__item socials-header__item_telegram" href=""><img src="img/icons/Telegram.svg" alt="Telegram"></a>
+									<a class="socials-header__item socials-header__item_whatsApp" href=""><img src="img/icons/WhatsApp.svg" alt="WhatsApp"></a>
+									<a class="socials-header__item socials-header__item_viber" href=""><img src="img/icons/viber.svg" alt="Viber"></a>
+								</div>
+							</div>
+							<div class="top-footer__data contact-block">
+								<a class="top-footer__phone contact-block__phone" href="tel:+380671755630"><span>+3 80 (67) 175 56
+										30 </span> </a>
+								<span class="top-footer__schedule contact-block__schedule">с 09:00 до 18:00 (пн-вс)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<span>© 2020. Все права защищены. TokarCompany - Производственно-строительная компания. Информация, представленная на сайте, не является публичной офертой.</span>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/icons/close.svg" alt="Кнопка закрыть модальное окно"></button>
+				<div class="consult-banner popup__body">
+					<div class="consult-banner__body consult-banner__body_white popup__inner">
+						<div class=" consult-form popup__form-body">
+							<h3 class="consult-form__title consult-banner__title">Получите ответы на все свои вопросы за 15 минут</h3>
+							<p id="messageBanner" class="consult-form__message"></p>
+							<form class="consult-form__form popup__form" id="formBanner">
+								<div class="consult-form__input"><input class="input" required id="phoneBanner" type="tel" name="phone" autocomplete="off" /></div>
+								<button class="button consult-form__btn" type="submit"><span>Заказать</span></button>
+							</form>
+							<div class="consult-banner__policy policy popup__policy">
+								Отправляя данные, Вы соглашаетесь на обработку <a href="" class="consult-banner__link policy__link">персональных данных</a>
+							</div>
+						</div>
+						<div class="consult-banner__img-ibg popup__img">
+							<picture><source srcset="img/popup-bg.webp" type="image/webp"><img src="img/popup-bg.jpg" alt="Мужчина разговаривает по телефону"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="popup-video" aria-hidden="true" class="popup" data-youtube-place="">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_ru&apikey=c9dcc103-076c-49b7-934f-aee79b1758c3&_v=20231014235928" type="text/javascript">
+	</script>
+	<script src="js/app.min.js?_v=20231014235928"></script>
+</body>
+
+</html>
