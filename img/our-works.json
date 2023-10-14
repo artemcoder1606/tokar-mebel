@@ -1,0 +1,25 @@
+{
+	"works": [
+		{
+			"id": 9,
+			"url": "#",
+			"title": "Вариант ST-53 «Feeria»",
+			"image": "01.jpg",
+			"square": "53.6 м2"
+		},
+		{
+			"id": 10,
+			"url": "#",
+			"title": "Вариант LX-75 «JULIA»",
+			"image": "02.jpg",
+			"square": "187 м2"
+		},
+		{
+			"id": 11,
+			"url": "#",
+			"title": "Вариант ST-49v2 «Nevada»",
+			"image": "03.jpg",
+			"square": "146 м2"
+		}
+	]
+}
