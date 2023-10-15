@@ -4756,6 +4756,12 @@ body.popup-show::after {
     font-size: 1rem;
   }
 }
+@media (max-width: 29.99875em) {
+  .top-footer__menu-link {
+    margin-bottom: 1.125rem;
+    display: inline-block;
+  }
+}
 .top-footer__column:first-child {
   display: grid;
   grid-template-columns: 28.5483870968% 39.6774193548% auto;
